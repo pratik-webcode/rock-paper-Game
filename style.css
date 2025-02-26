@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.choices button{
+    font-size: 4rem;
+    border-radius:90%;
+    cursor: pointer;
+    background-color: rgb(132, 165, 167);
+    padding: 15px;
+    transition: 0.4s rgb(76, 156, 160);
+    border: none;
+
+}
+.choices button:hover{
+  transition: 0.5s;
+    background-color: rgba(37, 131, 125, 0.852);
+}
+
+.display{
+    text-align: center;
+}
+#resultDisplay{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
